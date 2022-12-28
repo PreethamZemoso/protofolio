@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(2, 2, 2);
+   
+}
+
+
+.nav ul{
+    top:10px;
+    
+    align-items: flex-start;
+    position:fixed;
+    height:100px;
+
+  }
+  .header{
+    padding-top:100px;
+  }
+#about,#skills,#education,#work_experience,#gallery,#acheivements,#contact{
+    padding-top:100px;
+}
+
+.gallery ul{
+  align-items: flex-start;
+  
+}
+ a{
+    background: #395870;
+    background: linear-gradient(#49708f, #293f50);
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+li {
+    display: inline-block;
+    
+    margin: 0 10px;
+    
+  }
+img{
+    height: 170px;
+    width:140px;
+}
+.header li{
+    color:antiquewhite;
+
+}
+h2{
+    color:rgb(250, 246, 242);
+    
+}
+h5{
+    color:rgb(250, 246, 242);
+    font-size:40px;
+}
+p{
+    color:rgb(250,246,242);
+    font-size:20px;
+}
+
+table{
+    
+    border: 1px solid white;
+    
+   
+    margin-left: 30px;
+    height: 300px;
+    width:80px;
+    padding:0px;
+    color:aqua;
+    border-collapse: collapse;
+}
+td{
+    
+    border: 1px solid #fff;
+    padding:2px;
+    border-collapse: collapse;
+}
+.contact a{
+    width:40px;
+    height:30px;
+    
+    background-color: #efe9ef;
+    margin:50px;
+    
+    
+}
+
+img:hover{
+    height:200px;
+    width: 150px;
+    opacity:0.4;
+
+}
+
+.contact table{
+    height:100px;
+    width:40px;
+}
